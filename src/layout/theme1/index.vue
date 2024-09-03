@@ -1,10 +1,10 @@
 <template>
   <el-container style="height: 100vh">
-    <div
+    <!-- <div
       class="mask"
       v-show="!isCollapse && !contentFullScreen"
       @click="hideMenu"
-    ></div>
+    ></div> -->
     <el-aside
       :width="isCollapse ? '60px' : '250px'"
       :class="isCollapse ? 'hide-aside' : 'show-side'"

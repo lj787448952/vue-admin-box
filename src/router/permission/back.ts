@@ -34,7 +34,7 @@ const getComponents = (data: any[], level = 1) => {
         }
       }
     } else {
-      const [first, end] =  item.component.split('_')
+      const [first, end] = item.component.split('_')
       const component = backConfig[first][end]
       return {
         ...item,
@@ -42,6 +42,7 @@ const getComponents = (data: any[], level = 1) => {
       }
     }
   })
+  console.log(newData)
   return newData
 }
 

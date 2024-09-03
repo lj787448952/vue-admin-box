@@ -12,8 +12,8 @@ const lang = {
       delBat: '批量删除',
       delTip: '确定删除选中的数据吗？',
       handle: '操作',
-      exportExcel:'导出Excel',
-      exportExcelTip:'请输入导出文件名'
+      exportExcel: '导出Excel',
+      exportExcelTip: '请输入导出文件名'
     },
     menu: {
       dashboard: {
@@ -37,7 +37,7 @@ const lang = {
         map: '地图组件',
         cutPhoto: '弹窗图片裁剪',
         rightMenu: '右键菜单',
-        exportExcel:'导出文件'
+        exportExcel: '导出文件'
       },
       page: {
         name: '页面',
